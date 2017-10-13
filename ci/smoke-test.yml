@@ -8,7 +8,7 @@ image_resource:
     tag: "latest"
 
 params:
-  ATTENDEE_SERVICE_URL:
+  ATTENDEE_SERVICE_URL: http://moviefun-baccate-uncausativeness.apps.cumuluslabs.io
 
 inputs:
 - name: movie-fun
