@@ -5,6 +5,7 @@ applications:
   memory: 1G
   routes:
   - route: moviefun-baccate-uncausativeness.apps.cumuluslabs.io
+  path: target/moviefun.war
   services:
   - attendee-mysql
   stack: cflinuxfs2
