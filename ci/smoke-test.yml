@@ -11,7 +11,7 @@ params:
   ATTENDEE_SERVICE_URL:
 
 inputs:
-- name: attendee-service-source
+- name: movie-fun
 
 run:
-  path: attendee-service-source/ci/tasks/smoke-test.sh
+  path: movie-fun/ci/smoke-test.sh
