@@ -48,3 +48,12 @@ jobs:
     file: movie-fun/ci/smoke-test.yml
     params:
       ATTENDEE_SERVICE_URL: http://moviefun-baccate-uncausativeness.apps.cumuluslabs.io  #<---- REPLACE ME
+
+- name: cf_info
+  public: true
+  plan:
+  - get: movie-fun
+    trigger: true
+    passed: [smoke_test]
+  - task: cf_info
+    file: movie-fun/ci/cf_info.yml
