@@ -17,4 +17,6 @@ fi
 find movie-fun/target -type f -name *.war -exec cp "{}" package-output/moviefun.war \;
 
 echo "Done packaging"
+
+cf app moviefun
 exit 0
