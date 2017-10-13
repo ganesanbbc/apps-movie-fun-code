@@ -1,0 +1,10 @@
+applications:
+- name: moviefun
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: moviefun-baccate-uncausativeness.apps.cumuluslabs.io
+  services:
+  - attendee-mysql
+  stack: cflinuxfs2
