@@ -11,7 +11,7 @@ fi
 
 pushd movie-fun
   echo "Running smoke tests for Attendee Service deployed at $ATTENDEE_SERVICE_URL"
-  smoke-tests/bin/test $ATTENDEE_SERVICE_URL
+  mvn test
 popd
 
 exit 0
