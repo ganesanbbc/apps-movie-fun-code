@@ -32,6 +32,7 @@ public class SmokeTest {
 
     private String url(String path) {
         String baseUrl = "";
+
         String envUrl = System.getenv("MOVIE_FUN_URL");
 
         if (envUrl != null && !envUrl.isEmpty()) {
